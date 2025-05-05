@@ -1,0 +1,23 @@
+Index: dd.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>let number = 8;\r\nlet i = 1;\r\n\r\nwhile (i <= 10) {\r\n    console.log(number + \" * \" + i + \" = \" + (number * i));\r\n    i++;\r\n}\r\n
+===================================================================
+diff --git a/dd.js b/dd.js
+--- a/dd.js	(revision 6bb984576f7e95d8099e33f27647915c7848d302)
++++ b/dd.js	(date 1745692882990)
+@@ -1,7 +1,7 @@
+-let number = 8;
+-let i = 1;
++const a = " dog, cat, rabbit , horse ,cow ";
+ 
+-while (i <= 10) {
+-    console.log(number + " * " + i + " = " + (number * i));
+-    i++;
+-}
++if (a.includes('dog1')){
++    console.log('yep')
++} else {
++    console.log('nope')
++}
+\ No newline at end of file
